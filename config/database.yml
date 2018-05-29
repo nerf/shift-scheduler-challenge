@@ -1,0 +1,11 @@
+production:
+  adapter: sqlite3
+  database: tmp/production.db
+
+development:
+  adapter: sqlite3
+  database: tmp/development.db
+
+test:
+  adapter: sqlite3
+  database: ':memory:'
