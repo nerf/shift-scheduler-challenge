@@ -1,6 +1,7 @@
 ENV['SOHO_ENV'] ||= 'test'
 
-require 'config/boot'
+require './config/boot'
+require './spec/factory'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
