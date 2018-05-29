@@ -11,4 +11,4 @@ ActiveRecord::Base.establish_connection(database_config[env])
 
 require './db/schema.rb'
 
-Dir["./app/**/*.rb"].each { |file| require file }
+Dir["./app/{lib,models}/*.rb"].each { |file| require file }
