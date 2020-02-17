@@ -1,11 +1,11 @@
 example_id                               | status | run_time        |
 ---------------------------------------- | ------ | --------------- |
-./spec/app/lib/scheduler_spec.rb[1:1:1]  | passed | 0.0104 seconds  |
-./spec/app/lib/scheduler_spec.rb[1:2:1]  | passed | 0.05198 seconds |
-./spec/app/models/shift_spec.rb[1:1:1]   | passed | 0.00027 seconds |
-./spec/app/models/shift_spec.rb[1:2:1:1] | passed | 0.01493 seconds |
-./spec/app/models/shift_spec.rb[1:2:1:2] | passed | 0.02002 seconds |
-./spec/app/models/shift_spec.rb[1:2:2:1] | passed | 0.01186 seconds |
-./spec/app/models/shift_spec.rb[1:2:2:2] | passed | 0.00559 seconds |
-./spec/app/models/shift_spec.rb[1:2:2:3] | passed | 0.00811 seconds |
-./spec/app/models/shift_spec.rb[1:2:3:1] | passed | 0.02814 seconds |
+./spec/app/lib/scheduler_spec.rb[1:1:1]  | passed | 0.00668 seconds |
+./spec/app/lib/scheduler_spec.rb[1:2:1]  | passed | 0.01638 seconds |
+./spec/app/models/shift_spec.rb[1:1:1]   | passed | 0.0139 seconds  |
+./spec/app/models/shift_spec.rb[1:2:1:1] | passed | 0.01233 seconds |
+./spec/app/models/shift_spec.rb[1:2:1:2] | passed | 0.0193 seconds  |
+./spec/app/models/shift_spec.rb[1:2:2:1] | passed | 0.00985 seconds |
+./spec/app/models/shift_spec.rb[1:2:2:2] | passed | 0.07496 seconds |
+./spec/app/models/shift_spec.rb[1:2:2:3] | passed | 0.00858 seconds |
+./spec/app/models/shift_spec.rb[1:2:3:1] | passed | 0.0318 seconds  |
