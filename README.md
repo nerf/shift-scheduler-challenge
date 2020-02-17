@@ -1,5 +1,7 @@
-# Basic shift scheduler
-*Not complete/WIP*
+# Basic shift scheduler API
+This is an attempt to complete [Soho House Reception Scheduler](https://github.com/SohoHouse/reception-scheduler) challenge.
+Project setup and implementation is done within the 2 hour time limit.
+
 
 ## What is done
 
@@ -63,12 +65,3 @@ curl -X "POST" "http://localhost:9292/shifts" \
 `curl -X "GET" "http://localhost:9292/shifts/1"`
 
 **ID of the house**
-
-
-## Notes
-
- - I made bad decisions from the start to setup everything from scratch.
- - For me the four hours limit is not enough to cover all edge cases. I managed to handle some but many are still present.
- - Didn't had time to review my code.. expect many typos,bad names, etc..
- - The API is pretty limited. Didn't had time to do more.
- - There is no UI
